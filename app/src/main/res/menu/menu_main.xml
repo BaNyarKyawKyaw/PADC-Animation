@@ -1,10 +1,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.bnkk.padc.animation.MainActivity">
+    tools:context="com.bnkk.padc.animation.activities.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_open_user_profile"
         android:orderInCategory="100"
         android:title="@string/action_settings"
-        app:showAsAction="never" />
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_account_box_white_24dp"/>
 </menu>
